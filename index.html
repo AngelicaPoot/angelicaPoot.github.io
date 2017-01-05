@@ -3,11 +3,22 @@
 <head>
 <title>El primer documento HTML</title>
 </head>
+
  
 <body>
 <p>El lenguaje HTML es <strong>tan sencillo</strong> que
 prácticamente se entiende sin estudiar el significado
 de sus etiquetas principales.</p>
+ 
+ <div class="dropdown">
+  <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown trigger
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dLabel">
+    ...
+  </ul>
+</div>
 </body>
  
 </html>
